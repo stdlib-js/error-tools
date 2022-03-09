@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-only-property@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";export{default as formatProdErrorMessage}from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2pkg@esm/index.mjs";export{default as id2pkg}from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2pkg@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@esm/index.mjs";export{default as pkg2id}from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@esm/index.mjs";var d=s,o={};d(o,"formatProdErrorMessage",r),d(o,"id2pkg",t),d(o,"pkg2id",e);var i=o;export{i as default};
+//# sourceMappingURL=index.mjs.map
