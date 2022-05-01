@@ -70,7 +70,7 @@ interface Namespace {
 	*
 	* @example
 	* var v = ns.id2pkg( '0H5' );
-	* /- returns '@stdlib-math-base-special-sin'
+	* // returns '@stdlib/math/base/special/sin'
 	*/
 	id2pkg: typeof id2pkg;
 
