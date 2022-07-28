@@ -63,6 +63,18 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`database()`][@stdlib/error/tools/database]</span><span class="delimiter">: </span><span class="description">standard library error code database.</span>
+-   <span class="signature">[`fmtprodmsgFactory( [options] )`][@stdlib/error/tools/fmtprodmsg-factory]</span><span class="delimiter">: </span><span class="description">return a `function` which formats an error message for production.</span>
+-   <span class="signature">[`fmtprodmsg( code, ...args )`][@stdlib/error/tools/fmtprodmsg]</span><span class="delimiter">: </span><span class="description">format an error message for production.</span>
+-   <span class="signature">[`id2msg( id )`][@stdlib/error/tools/id2msg]</span><span class="delimiter">: </span><span class="description">return an error message corresponding to a provided two-character error identifier.</span>
+-   <span class="signature">[`id2pkg( id )`][@stdlib/error/tools/id2pkg]</span><span class="delimiter">: </span><span class="description">return the package name associated with a specified error identifier prefix.</span>
+-   <span class="signature">[`msg2id( msg )`][@stdlib/error/tools/msg2id]</span><span class="delimiter">: </span><span class="description">return a two-character error identifier corresponding to a provided error message.</span>
+-   <span class="signature">[`pkg2id( pkg )`][@stdlib/error/tools/pkg2id]</span><span class="delimiter">: </span><span class="description">return the error identifier prefix associated with a specified package name.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -166,6 +178,20 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/error-tools/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/error/tools/database]: https://github.com/stdlib-js/error-tools-database
+
+[@stdlib/error/tools/fmtprodmsg-factory]: https://github.com/stdlib-js/error-tools-fmtprodmsg-factory
+
+[@stdlib/error/tools/fmtprodmsg]: https://github.com/stdlib-js/error-tools-fmtprodmsg
+
+[@stdlib/error/tools/id2msg]: https://github.com/stdlib-js/error-tools-id2msg
+
+[@stdlib/error/tools/id2pkg]: https://github.com/stdlib-js/error-tools-id2pkg
+
+[@stdlib/error/tools/msg2id]: https://github.com/stdlib-js/error-tools-msg2id
+
+[@stdlib/error/tools/pkg2id]: https://github.com/stdlib-js/error-tools-pkg2id
 
 <!-- </toc-links> -->
 
