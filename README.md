@@ -24,20 +24,30 @@ limitations under the License.
 
 > Error tools.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/error-tools
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { database, fmtprodmsg, fmtprodmsgFactory, id2msg, id2pkg, msg2id, pkg2id } from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@esm/index.mjs';
+var tools = require( '@stdlib/error-tools' );
 ```
 
 #### tools
@@ -53,6 +63,18 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`database()`][@stdlib/error/tools/database]</span><span class="delimiter">: </span><span class="description">standard library error code database.</span>
+-   <span class="signature">[`fmtprodmsgFactory( [options] )`][@stdlib/error/tools/fmtprodmsg-factory]</span><span class="delimiter">: </span><span class="description">return a `function` which formats an error message for production.</span>
+-   <span class="signature">[`fmtprodmsg( code, ...args )`][@stdlib/error/tools/fmtprodmsg]</span><span class="delimiter">: </span><span class="description">format an error message for production.</span>
+-   <span class="signature">[`id2msg( id )`][@stdlib/error/tools/id2msg]</span><span class="delimiter">: </span><span class="description">return an error message corresponding to a provided two-character error identifier.</span>
+-   <span class="signature">[`id2pkg( id )`][@stdlib/error/tools/id2pkg]</span><span class="delimiter">: </span><span class="description">return the package name associated with a specified error identifier prefix.</span>
+-   <span class="signature">[`msg2id( msg )`][@stdlib/error/tools/msg2id]</span><span class="delimiter">: </span><span class="description">return a two-character error identifier corresponding to a provided error message.</span>
+-   <span class="signature">[`pkg2id( pkg )`][@stdlib/error/tools/pkg2id]</span><span class="delimiter">: </span><span class="description">return the error identifier prefix associated with a specified package name.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -67,20 +89,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var tools = require( '@stdlib/error-tools' );
 
 console.log( objectKeys( tools ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -104,7 +117,7 @@ console.log( objectKeys( tools ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -165,6 +178,20 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/error-tools/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/error/tools/database]: https://github.com/stdlib-js/error-tools-database
+
+[@stdlib/error/tools/fmtprodmsg-factory]: https://github.com/stdlib-js/error-tools-fmtprodmsg-factory
+
+[@stdlib/error/tools/fmtprodmsg]: https://github.com/stdlib-js/error-tools-fmtprodmsg
+
+[@stdlib/error/tools/id2msg]: https://github.com/stdlib-js/error-tools-id2msg
+
+[@stdlib/error/tools/id2pkg]: https://github.com/stdlib-js/error-tools-id2pkg
+
+[@stdlib/error/tools/msg2id]: https://github.com/stdlib-js/error-tools-msg2id
+
+[@stdlib/error/tools/pkg2id]: https://github.com/stdlib-js/error-tools-pkg2id
 
 <!-- </toc-links> -->
 
