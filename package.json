@@ -55,7 +55,7 @@
     "@stdlib/fs-read-file": "^0.0.x",
     "@stdlib/fs-write-file": "^0.0.x",
     "@stdlib/process-exec-path": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",
