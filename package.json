@@ -36,13 +36,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/error-tools-database": "^0.0.2",
+    "@stdlib/error-tools-database": "^0.0.3",
     "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/error-tools-fmtprodmsg-factory": "^0.0.1",
     "@stdlib/error-tools-id2msg": "^0.0.1",
-    "@stdlib/error-tools-id2pkg": "^0.0.2",
+    "@stdlib/error-tools-id2pkg": "^0.0.3",
     "@stdlib/error-tools-msg2id": "^0.0.2",
-    "@stdlib/error-tools-pkg2id": "^0.0.2",
+    "@stdlib/error-tools-pkg2id": "^0.0.3",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
