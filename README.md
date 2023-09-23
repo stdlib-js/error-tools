@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@esm/index.mjs';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { database, fmtprodmsg, fmtprodmsgFactory, id2msg, id2pkg, msg2id, pkg2id } from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@esm/index.mjs';
+import { database, fmtprodmsg, fmtprodmsgFactory, id2msg, id2pkg, msg2id, pkg2id } from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@v0.1.0-esm/index.mjs';
 ```
 
 #### tools
@@ -97,7 +97,7 @@ The namespace contains the following:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@esm/index.mjs';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@v0.1.0-esm/index.mjs';
 
 console.log( objectKeys( tools ) );
 
