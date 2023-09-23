@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@deno/mod.js';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { database, fmtprodmsg, fmtprodmsgFactory, id2msg, id2pkg, msg2id, pkg2id } from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@deno/mod.js';
+import { database, fmtprodmsg, fmtprodmsgFactory, id2msg, id2pkg, msg2id, pkg2id } from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@v0.1.0-deno/mod.js';
 ```
 
 #### tools
@@ -92,7 +92,7 @@ The namespace contains the following:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@deno/mod.js';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( tools ) );
 ```
