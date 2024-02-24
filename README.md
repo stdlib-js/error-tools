@@ -35,32 +35,20 @@ limitations under the License.
 
 > Error tools.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/error-tools
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var tools = require( '@stdlib/error-tools' );
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { database, fmtprodmsg, fmtprodmsgFactory, id2msg, id2pkg, msg2id, pkg2id } from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@deno/mod.js';
 ```
 
 #### tools
@@ -103,8 +91,8 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var tools = require( '@stdlib/error-tools' );
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools@deno/mod.js';
 
 console.log( objectKeys( tools ) );
 ```
@@ -130,7 +118,7 @@ console.log( objectKeys( tools ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -195,19 +183,19 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/error/tools/database]: https://github.com/stdlib-js/error-tools-database
+[@stdlib/error/tools/database]: https://github.com/stdlib-js/error-tools-database/tree/deno
 
-[@stdlib/error/tools/fmtprodmsg-factory]: https://github.com/stdlib-js/error-tools-fmtprodmsg-factory
+[@stdlib/error/tools/fmtprodmsg-factory]: https://github.com/stdlib-js/error-tools-fmtprodmsg-factory/tree/deno
 
-[@stdlib/error/tools/fmtprodmsg]: https://github.com/stdlib-js/error-tools-fmtprodmsg
+[@stdlib/error/tools/fmtprodmsg]: https://github.com/stdlib-js/error-tools-fmtprodmsg/tree/deno
 
-[@stdlib/error/tools/id2msg]: https://github.com/stdlib-js/error-tools-id2msg
+[@stdlib/error/tools/id2msg]: https://github.com/stdlib-js/error-tools-id2msg/tree/deno
 
-[@stdlib/error/tools/id2pkg]: https://github.com/stdlib-js/error-tools-id2pkg
+[@stdlib/error/tools/id2pkg]: https://github.com/stdlib-js/error-tools-id2pkg/tree/deno
 
-[@stdlib/error/tools/msg2id]: https://github.com/stdlib-js/error-tools-msg2id
+[@stdlib/error/tools/msg2id]: https://github.com/stdlib-js/error-tools-msg2id/tree/deno
 
-[@stdlib/error/tools/pkg2id]: https://github.com/stdlib-js/error-tools-pkg2id
+[@stdlib/error/tools/pkg2id]: https://github.com/stdlib-js/error-tools-pkg2id/tree/deno
 
 <!-- </toc-links> -->
 
