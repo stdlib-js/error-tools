@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.4.0">
 
-## Unreleased (2025-12-15)
+## 0.4.0 (2026-01-30)
 
 <section class="features">
 
@@ -53,6 +53,7 @@
 
 <details>
 
+-   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`ce53fb5`](https://github.com/stdlib-js/stdlib/commit/ce53fb5de8b6c28a1ea088bdc58c3ef24ef5c095) - **feat:** update error databases [(#9033)](https://github.com/stdlib-js/stdlib/pull/9033) _(by stdlib-bot)_
 -   [`316ba7e`](https://github.com/stdlib-js/stdlib/commit/316ba7eee1bd8c423b2ef02d44aa5e084d504244) - **feat:** update error databases [(#8578)](https://github.com/stdlib-js/stdlib/pull/8578) _(by stdlib-bot)_
 -   [`a0b1e88`](https://github.com/stdlib-js/stdlib/commit/a0b1e889fb69e6c8f14ea30ca7357bceb985a39c) - **feat:** update error databases [(#8543)](https://github.com/stdlib-js/stdlib/pull/8543) _(by stdlib-bot)_
@@ -104,9 +105,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Neeraj Pathak
 -   Philipp Burckhardt
 
 </section>
