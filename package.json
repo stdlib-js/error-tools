@@ -55,7 +55,7 @@
     "@stdlib/fs-write-file": "^0.2.2",
     "@stdlib/object-inverse": "^0.1.0",
     "@stdlib/process-exec-path": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/string-replace": "^0.2.2",
     "@stdlib/utils-copy": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
