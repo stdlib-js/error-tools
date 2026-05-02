@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-26)
+## Unreleased (2026-05-02)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#11327](https://github.com/stdlib-js/stdlib/issues/11327)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`7431746`](https://github.com/stdlib-js/stdlib/commit/74317460bcffcf3c766dbdf6d5a6c0ef2bd4516d) - **chore:** fix JavaScript lint errors [(#11339)](https://github.com/stdlib-js/stdlib/pull/11339) _(by Bhumika Sudarshani)_
 -   [`fda918b`](https://github.com/stdlib-js/stdlib/commit/fda918b01397d0a842c3d3fb87a4680122eaa8ff) - **docs:** fix section structure and lint errors in READMEs _(by Philipp Burckhardt)_
 -   [`0ebd0ed`](https://github.com/stdlib-js/stdlib/commit/0ebd0ed2722511ffc2a8a158a387aeb90d915c8f) - **docs:** fix lint errors in README files _(by Philipp Burckhardt)_
 
@@ -25,8 +38,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Bhumika Sudarshani
 -   Philipp Burckhardt
 
 </section>
