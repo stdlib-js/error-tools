@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-02)
+## Unreleased (2026-06-11)
+
+<section class="features">
+
+### Features
+
+-   [`15f6a2c`](https://github.com/stdlib-js/stdlib/commit/15f6a2c0db4fb35e9b135784659e519e194274c2) - update error databases [(#11304)](https://github.com/stdlib-js/stdlib/pull/11304)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`15f6a2c`](https://github.com/stdlib-js/stdlib/commit/15f6a2c0db4fb35e9b135784659e519e194274c2) - **feat:** update error databases [(#11304)](https://github.com/stdlib-js/stdlib/pull/11304) _(by stdlib-bot)_
 -   [`7431746`](https://github.com/stdlib-js/stdlib/commit/74317460bcffcf3c766dbdf6d5a6c0ef2bd4516d) - **chore:** fix JavaScript lint errors [(#11339)](https://github.com/stdlib-js/stdlib/pull/11339) _(by Bhumika Sudarshani)_
 -   [`fda918b`](https://github.com/stdlib-js/stdlib/commit/fda918b01397d0a842c3d3fb87a4680122eaa8ff) - **docs:** fix section structure and lint errors in READMEs _(by Philipp Burckhardt)_
 -   [`0ebd0ed`](https://github.com/stdlib-js/stdlib/commit/0ebd0ed2722511ffc2a8a158a387aeb90d915c8f) - **docs:** fix lint errors in README files _(by Philipp Burckhardt)_
