@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-11)
+## Unreleased (2026-07-28)
 
 <section class="features">
 
 ### Features
 
+-   [`81d59c0`](https://github.com/stdlib-js/stdlib/commit/81d59c0c5b1389765849c0991e8a79fe1155e5a9) - update error databases [(#13544)](https://github.com/stdlib-js/stdlib/pull/13544)
+-   [`6db1e3f`](https://github.com/stdlib-js/stdlib/commit/6db1e3f8673969bab2bb977f9bc639550a1fda33) - update error databases [(#13274)](https://github.com/stdlib-js/stdlib/pull/13274)
+-   [`0294af8`](https://github.com/stdlib-js/stdlib/commit/0294af89478f9fc7f3fbb5295a73f33a86eef057) - update error databases [(#13174)](https://github.com/stdlib-js/stdlib/pull/13174)
+-   [`f4fc965`](https://github.com/stdlib-js/stdlib/commit/f4fc965572e1e8d52cc25c36d06e7a6ebe725957) - update error databases [(#13006)](https://github.com/stdlib-js/stdlib/pull/13006)
 -   [`15f6a2c`](https://github.com/stdlib-js/stdlib/commit/15f6a2c0db4fb35e9b135784659e519e194274c2) - update error databases [(#11304)](https://github.com/stdlib-js/stdlib/pull/11304)
 
 </section>
@@ -34,6 +38,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`81d59c0`](https://github.com/stdlib-js/stdlib/commit/81d59c0c5b1389765849c0991e8a79fe1155e5a9) - **feat:** update error databases [(#13544)](https://github.com/stdlib-js/stdlib/pull/13544) _(by stdlib-bot)_
+-   [`6db1e3f`](https://github.com/stdlib-js/stdlib/commit/6db1e3f8673969bab2bb977f9bc639550a1fda33) - **feat:** update error databases [(#13274)](https://github.com/stdlib-js/stdlib/pull/13274) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`0294af8`](https://github.com/stdlib-js/stdlib/commit/0294af89478f9fc7f3fbb5295a73f33a86eef057) - **feat:** update error databases [(#13174)](https://github.com/stdlib-js/stdlib/pull/13174) _(by stdlib-bot)_
+-   [`f4fc965`](https://github.com/stdlib-js/stdlib/commit/f4fc965572e1e8d52cc25c36d06e7a6ebe725957) - **feat:** update error databases [(#13006)](https://github.com/stdlib-js/stdlib/pull/13006) _(by stdlib-bot)_
 -   [`15f6a2c`](https://github.com/stdlib-js/stdlib/commit/15f6a2c0db4fb35e9b135784659e519e194274c2) - **feat:** update error databases [(#11304)](https://github.com/stdlib-js/stdlib/pull/11304) _(by stdlib-bot)_
 -   [`7431746`](https://github.com/stdlib-js/stdlib/commit/74317460bcffcf3c766dbdf6d5a6c0ef2bd4516d) - **chore:** fix JavaScript lint errors [(#11339)](https://github.com/stdlib-js/stdlib/pull/11339) _(by Bhumika Sudarshani)_
 -   [`fda918b`](https://github.com/stdlib-js/stdlib/commit/fda918b01397d0a842c3d3fb87a4680122eaa8ff) - **docs:** fix section structure and lint errors in READMEs _(by Philipp Burckhardt)_
